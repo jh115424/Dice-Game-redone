@@ -1,8 +1,48 @@
 .dieBox {
   width: 100px;
   height: 100px;
- 
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: rgb(27, 114, 114);
+  border-radius: 50%;
+}
+
+.dot.top-left {
+  top: 15%;
+  left: 15%;
+}
+.dot.top-right {
+  top: 15%;
+  right: 15%;
+}
+.dot.middle-left {
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+.dot.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dot.middle-right {
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+.dot.bottom-left {
+  bottom: 15%;
+  left: 15%;
+}
+.dot.bottom-right {
+  bottom: 15%;
+  right: 15%;
 }

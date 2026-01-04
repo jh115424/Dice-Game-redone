@@ -2,7 +2,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .diceGameContainer {
@@ -38,9 +37,57 @@ html {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 40px;
-    justify-items: center;  /* Centers dice horizontally in their grid cells */
-  margin: 0 auto;  
-
+  justify-items: center; /* Centers dice horizontally in their grid cells */
+  margin: 0 auto;
 }
 
+.scoreSection {
+  background-color: rgb(46, 163, 163);
+  height: 170px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
 
+.scoreSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionParts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  line-height: 0.3;
+}
+
+.yourRoll,
+.rollsThisSes {
+  font-size: 20px;
+}
+
+.bigNum {
+  font-size: 32px;
+}
+
+.rolls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.rollButton {
+  width: 200px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  color: #11998e;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
