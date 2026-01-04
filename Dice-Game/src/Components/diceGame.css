@@ -1,0 +1,46 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.diceGameContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.diceGameBody {
+  height: 700px;
+  width: 500px;
+  background-color: rgb(27, 114, 114);
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(255, 255, 255, 0.3);
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  height: 100px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+    justify-items: center;  /* Centers dice horizontally in their grid cells */
+  margin: 0 auto;  
+
+}
+
+
