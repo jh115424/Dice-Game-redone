@@ -31,7 +31,7 @@ export default function DiceGame() {
     <>
       <div className="diceGameContainer">
         <div className="diceGameBody">
-          <h2 className="title">🎲 Jenny's Dice Game 🎲</h2>
+          <h2 className="title">🎲 Rollin' Dice Game 🎲</h2>
 
           <div className="dice-grid">
             <Die value={diceRoll[0]} />
